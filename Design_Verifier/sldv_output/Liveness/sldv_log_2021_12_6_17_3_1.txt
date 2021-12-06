@@ -1,0 +1,39 @@
+
+Creating a new model from the contents of Atomic Subsystem "Liveness".
+
+New Model File:G:\GitHubRepo\Robots-Cluster\sldv_output\Liveness\Liveness.slx
+
+06-Dec-2021 17:02:48
+Checking compatibility for property proving: model 'Liveness'
+Compiling model...done
+Building model representation...done
+
+06-Dec-2021 17:02:52
+'test_verifier/Liveness' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 06-Dec-2021 17:02:52...
+
+FALSIFIED
+Liveness/Proof Objective
+Objective: T
+Analysis Time = 00:00:05
+
+FALSIFIED
+Liveness/Proof Objective1
+Objective: F
+Analysis Time = 00:00:06
+
+
+06-Dec-2021 17:02:59
+
+Completed normally.
+
+Generating output files:
+
+06-Dec-2021 17:03:01
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\sldv_output\Liveness\Liveness_sldvdata.mat
+

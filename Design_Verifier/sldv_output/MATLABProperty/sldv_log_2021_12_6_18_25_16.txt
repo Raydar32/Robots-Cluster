@@ -1,0 +1,37 @@
+
+Creating a new model from the contents of Atomic Subsystem "MATLAB Property".
+
+New Model File:G:\GitHubRepo\Robots-Cluster\sldv_output\MATLABProperty\MATLABProperty.slx
+
+06-Dec-2021 18:25:04
+Checking compatibility for property proving: model 'MATLABProperty'
+Compiling model...done
+Building model representation...done
+
+06-Dec-2021 18:25:07
+'sldvdemo_sbr_verification/Safety Properties/MATLAB Property' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 06-Dec-2021 18:25:07...
+
+FALSIFIED
+MATLAB Property
+ sldv.prove(implies(activeCond,SeatBeltIcon))
+Analysis Time = 00:00:04
+
+
+06-Dec-2021 18:25:12
+
+Completed normally.
+
+Generating output files:
+
+    Harness model:
+    G:\GitHubRepo\Robots-Cluster\sldv_output\MATLABProperty\MATLABProperty_harness.slx
+
+06-Dec-2021 18:25:16
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\sldv_output\MATLABProperty\MATLABProperty_sldvdata.mat
+

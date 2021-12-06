@@ -1,0 +1,30 @@
+
+06-Dec-2021 17:15:28
+Checking compatibility for property proving: model 'sldvdemo_debounce_assumeblk'
+Compiling model...done
+Building model representation...done
+
+06-Dec-2021 17:15:33
+'sldvdemo_debounce_assumeblk' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 06-Dec-2021 17:15:33...
+
+UNDECIDED
+Verify True Output/Assertion
+Assert
+Analysis Time = N/A
+
+
+06-Dec-2021 17:15:38
+
+Completed normally.
+
+Generating output files:
+
+06-Dec-2021 17:15:39
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\sldv_output\sldvdemo_debounce_assumeblk\sldvdemo_debounce_assumeblk_sldvdata.mat
+
