@@ -1,0 +1,39 @@
+
+07-Dec-2021 10:53:22
+Validating cached model representation from 07-Dec-2021 10:51:18...
+Using the extracted model from cache 
+Extracted model file: G:\GitHubRepo\Robots-Cluster\Project\sldv_output\Liveness\Liveness.slx
+done
+
+07-Dec-2021 10:53:22
+'test_verifier/Liveness' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 07-Dec-2021 10:51:18...
+
+Running additional analysis to reduce instances of rational approximation...
+
+
+VALID
+Liveness/Assertion
+Assert
+Analysis Time = 00:00:04
+
+VALID
+Liveness/Assertion
+Assert
+Analysis Time = 00:00:04
+
+
+07-Dec-2021 10:53:27
+
+Completed normally.
+
+Generating output files:
+
+07-Dec-2021 10:53:28
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\Project\sldv_output\Liveness\Liveness_sldvdata12.mat
+

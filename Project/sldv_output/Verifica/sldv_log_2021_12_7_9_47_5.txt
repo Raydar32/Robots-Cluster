@@ -1,0 +1,34 @@
+
+Creating a new model from the contents of Atomic Subsystem "Verifica".
+
+New Model File:G:\GitHubRepo\Robots-Cluster\Project\sldv_output\Verifica\Verifica.slx
+
+07-Dec-2021 09:46:53
+Checking compatibility for property proving: model 'Verifica'
+Compiling model...done
+Building model representation...done
+
+07-Dec-2021 09:46:57
+'untitled/Verifica' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 07-Dec-2021 09:46:57...
+
+FALSIFIED
+Verifica/Assertion
+Assert
+Analysis Time = 00:00:06
+
+
+07-Dec-2021 09:47:04
+
+Completed normally.
+
+Generating output files:
+
+07-Dec-2021 09:47:05
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\Project\sldv_output\Verifica\Verifica_sldvdata.mat
+

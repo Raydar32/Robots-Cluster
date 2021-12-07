@@ -1,0 +1,269 @@
+CV_Database {
+  modelcov {
+    id			    1
+    name		    "Liveness@(R2021b)"
+    unmangledName	    "Liveness"
+    dbVersion		    "(R2021b)"
+    canHarnessMapBackToOwner 1
+    refModelcovIds	    [1]
+    topModelcovId	    [1]
+    rootTree		    [0 2 0 0]
+    blockTypes		    [9 10 11]
+  }
+  root {
+    id			    2
+    modelcov		    1
+    topSlsf		    12
+    firstTest		    3
+    treeNode		    [1 0 0 0]
+    checksum		    [2513310050 1109487225 3232184948 3080228747]
+  }
+  testdata {
+    id			    3
+    modelcov		    1
+    uniqueId		    "48c8a1d4-c7b8-44c8-b171-6da5adbd3685"
+    linkNode		    [2 0 0]
+    type		    DLGENABLED_TST
+    modelVersion	    "1.1"
+    creator		    "Alessandro"
+    lastModifiedDate	    "Tue Dec 07 10:54:55 2021"
+    blockReductionStatus    "forcedOff"
+    defaultParameterBehavior "Tunable"
+    dbVersion		    "(R2021b)"
+    dbversionToRestore	    "(R2021b)"
+    conditionallyExecuteInputs 1
+    startTime		    738497.4548645833
+    stopTime		    738497.4548648379
+    testobjectives	    [0 0 0 0 0 0 0 4 5 6 7 0 0 8]
+    mcdcMode		    1
+    mldref_enable	    "on"
+    covExternalEMLEnable    1
+    forceBlockReductionOff  1
+    covBoundaryRelTol	    0.01
+    covBoundaryAbsTol	    1e-05
+  }
+  metricdata {
+    id			    4
+    metricenumValue	    8
+    metricName		    "cvmetric_Sldv_test"
+  }
+  metricdata {
+    id			    5
+    metricenumValue	    9
+    metricName		    "cvmetric_Sldv_proof"
+  }
+  metricdata {
+    id			    6
+    metricenumValue	    10
+    metricName		    "cvmetric_Sldv_condition"
+  }
+  metricdata {
+    id			    7
+    metricenumValue	    11
+    metricName		    "cvmetric_Sldv_assumption"
+    size		    14
+    data {
+      rawdata		      "100 M14x1[0 0 0 0 0 0 0 0 0 0 0 0 0 0]"
+    }
+  }
+  metricdata {
+    id			    8
+    metricenumValue	    14
+    metricName		    "cvmetric_Structural_block"
+  }
+  typename {
+    id			    9
+    type		    "Logic"
+  }
+  typename {
+    id			    10
+    type		    "RelationalOperator"
+  }
+  typename {
+    id			    11
+    type		    "Design Verifier Assumption"
+  }
+  slsfobj {
+    id			    12
+    name		    "Liveness"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [0 13 0 0]
+    metricFlags		    2112
+    metrics		    [18 19]
+    cvChecksum {
+      u1		      2513310050
+      u2		      1109487225
+      u3		      3232184948
+      u4		      3080228747
+    }
+  }
+  slsfobj {
+    id			    13
+    name		    "Input\nConversion\nSubsystem"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [12 14 0 16]
+    cvChecksum {
+      u1		      1048347815
+      u2		      523847931
+      u3		      3575042727
+      u4		      379848448
+    }
+  }
+  slsfobj {
+    id			    14
+    name		    "SigSpec_1"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [13 0 0 15]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+  }
+  slsfobj {
+    id			    15
+    name		    "SigSpec_2"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [13 0 14 0]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+  }
+  slsfobj {
+    id			    16
+    name		    "Liveness"
+    origin		    SIMULINK_OBJ
+    isAtomicSubsytem	    1
+    modelcov		    1
+    treeNode		    [12 17 13 0]
+    metricFlags		    2112
+    metrics		    [20 21]
+    cvChecksum {
+      u1		      1730116942
+      u2		      1187967013
+      u3		      714171721
+      u4		      660868028
+    }
+  }
+  slsfobj {
+    id			    17
+    name		    "Assumption"
+    origin		    SIMULINK_OBJ
+    slBlckType		    11
+    modelcov		    1
+    treeNode		    [16 0 0 0]
+    metricFlags		    2048
+    metrics		    [22]
+    cvChecksum {
+      u1		      3557070753
+      u2		      2191338235
+      u3		      1006179428
+      u4		      4176387452
+    }
+  }
+  metric {
+    id			    18
+    dataCnt		    [2 1 0 0]
+  }
+  metric {
+    id			    19
+    dataIdx		    [0 -1]
+    justifiedDataIdx	    [1 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    15
+  }
+  metric {
+    id			    20
+    dataIdx		    [1 1]
+    dataCnt		    [1 1 0 0]
+  }
+  metric {
+    id			    21
+    dataIdx		    [2 -1]
+    justifiedDataIdx	    [3 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    13
+  }
+  metric {
+    id			    22
+    baseObjs		    [23 24 25]
+    dataIdx		    [6 4]
+    justifiedDataIdx	    [7 5]
+    dataCnt		    [3 3 -1 -1]
+    dataWidth		    11
+  }
+  decision {
+    id			    23
+    modelcov		    1
+    slsfobj		    17
+    relopChkExprIdx	    -1
+    descriptor		    26
+    outMsgs		    [27 28]
+    dc			    [2 1 8 0]
+  }
+  decision {
+    id			    24
+    modelcov		    1
+    slsfobj		    17
+    relopChkExprIdx	    -1
+    descriptor		    29
+    outMsgs		    [30 31]
+    dc			    [2 1 10 0]
+  }
+  decision {
+    id			    25
+    modelcov		    1
+    slsfobj		    17
+    relopChkExprIdx	    -1
+    descriptor		    32
+    outMsgs		    [33 34]
+    dc			    [2 1 12 0]
+  }
+  message {
+    id			    26
+    keyNum		    25
+    txtParams		    "-1"
+  }
+  message {
+    id			    27
+    keyNum		    159
+  }
+  message {
+    id			    28
+    keyNum		    158
+  }
+  message {
+    id			    29
+    keyNum		    25
+    txtParams		    "0"
+  }
+  message {
+    id			    30
+    keyNum		    159
+  }
+  message {
+    id			    31
+    keyNum		    158
+  }
+  message {
+    id			    32
+    keyNum		    25
+    txtParams		    "1"
+  }
+  message {
+    id			    33
+    keyNum		    159
+  }
+  message {
+    id			    34
+    keyNum		    158
+  }
+}

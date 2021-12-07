@@ -1,0 +1,37 @@
+
+07-Dec-2021 10:16:08
+Validating cached model representation from 07-Dec-2021 10:05:58...change detected
+
+Creating a new model from the contents of Atomic Subsystem "Verification Subsystem".
+
+New Model File:G:\GitHubRepo\Robots-Cluster\Project\sldv_output\VerificationSubsystem\VerificationSubsystem.slx
+
+07-Dec-2021 10:16:09
+Checking compatibility for property proving: model 'VerificationSubsystem'
+Compiling model...done
+Building model representation...done
+
+07-Dec-2021 10:16:10
+'untitled/Verification Subsystem' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 07-Dec-2021 10:16:10...
+
+FALSIFIED
+Verification Subsystem/Assertion
+Assert
+Analysis Time = 00:00:04
+
+
+07-Dec-2021 10:16:14
+
+Completed normally.
+
+Generating output files:
+
+07-Dec-2021 10:16:15
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\Project\sldv_output\VerificationSubsystem\VerificationSubsystem_sldvdata1.mat
+

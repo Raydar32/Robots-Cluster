@@ -1,0 +1,47 @@
+
+07-Dec-2021 14:49:52
+Checking compatibility for property proving: model 'test_verifier_Harness1'
+Compiling model...done
+Building model representation...done
+
+07-Dec-2021 14:49:59
+'test_verifier_Harness1' is partially compatible for property proving with Simulink Design Verifier.
+
+The model can be analyzed by Simulink Design Verifier. 
+It contains unsupported elements that will be stubbed out during analysis. The results of the analysis might be incomplete. 
+See the Diagnostic Viewer for more details on the unsupported elements.
+
+
+Proving properties using model representation from 07-Dec-2021 14:49:59...
+
+VALID
+RobotsCluster/Start/ Output Data "messageOut"
+Objective: { }
+Analysis Time = 00:00:07
+
+VALID UNDER APPROXIMATION
+RobotsCluster/Coordinator/ Output Data "outM"
+Objective: { }
+Analysis Time = 00:00:08
+
+VALID UNDER APPROXIMATION
+RobotsCluster/Robot/ Output Data "outM"
+Objective: { }
+Analysis Time = 00:03:26
+
+Running additional analysis to reduce instances of rational approximation...
+
+
+
+07-Dec-2021 14:54:59
+
+Property proving exceeded time limit.
+
+Generating output files:
+
+07-Dec-2021 14:55:00
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\Project_dv\sldv_output\test_verifier_Harness1\test_verifier_Harness1_sldvdata.mat
+

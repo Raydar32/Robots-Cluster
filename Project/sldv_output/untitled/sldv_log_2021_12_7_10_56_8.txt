@@ -1,0 +1,33 @@
+
+07-Dec-2021 10:56:02
+Validating cached model representation from 07-Dec-2021 10:19:17...change detected
+
+07-Dec-2021 10:56:02
+Checking compatibility for property proving: model 'untitled'
+Compiling model...done
+Building model representation...done
+
+07-Dec-2021 10:56:04
+'untitled' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 07-Dec-2021 10:56:04...
+
+FALSIFIED - NO COUNTEREXAMPLE
+Verification Subsystem/Assertion
+Assert
+Analysis Time = 00:00:03
+
+
+07-Dec-2021 10:56:08
+
+Completed normally.
+
+Generating output files:
+
+07-Dec-2021 10:56:08
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\Project\sldv_output\untitled\untitled_sldvdata7.mat
+

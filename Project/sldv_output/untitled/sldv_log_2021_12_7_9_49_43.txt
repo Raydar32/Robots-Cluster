@@ -1,0 +1,25 @@
+
+07-Dec-2021 09:49:36
+Checking compatibility for property proving: model 'untitled'
+Compiling model...done
+Building model representation...done
+
+07-Dec-2021 09:49:39
+'untitled' is compatible for property proving with Simulink Design Verifier.
+
+
+Proving properties using model representation from 07-Dec-2021 09:49:39...
+
+
+07-Dec-2021 09:49:43
+
+Completed normally.
+
+Generating output files:
+
+07-Dec-2021 09:49:43
+Results generation completed.
+
+    Data file:
+    G:\GitHubRepo\Robots-Cluster\Project\sldv_output\untitled\untitled_sldvdata.mat
+
